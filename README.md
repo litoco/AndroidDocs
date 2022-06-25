@@ -1,2 +1,2 @@
-# AndroidDocs
-Repository containing android related contents
+# Android Docs
+Repository containing contents related to android
