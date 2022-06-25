@@ -1,5 +1,5 @@
 ## Problem statement
-While implementing the [recomposition](https://github.com/litoco/AndroidDocs/blob/main/jetpack-compose/recomposition/README.md) with a list, I encountered this problem which increased the size of the list infinitely on adding just one element on a button click by the user.
+While implementing the [recomposition](https://github.com/litoco/AndroidDocs/blob/main/jetpack-compose/recomposition/README.md) with a list, I encountered this problem of `composable` function getting called multiple times. This lead to the problem in which the size of the list was increased infinitely on adding just an element on a button click.
 Following is the code that had the problem:\
 ***File1.kt***
 ```
